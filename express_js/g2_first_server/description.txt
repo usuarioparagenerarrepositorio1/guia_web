@@ -1,0 +1,8 @@
+Esta es una muestra de formato de un servidor basico hecho con express
+Se sigue el formato de desarrollo MVC. De ahi se denota las carpetas.
+1) routes, esto llevara todas las url del servidor.
+2) views, esto es la muestra de los archivos html y/o controladores.
+3)public, esto contiene archivos adicionales para las vistas como los css, js,imagenes y fuentes, etc.
+4) controllers, manejamiento de las rutas con funciones y esto mantiene el codigo limpio.
+
+aparte de express,ejs y nodemon se instalara body-parser que esto determina las peticiones post.

@@ -12,3 +12,60 @@ Atom One Dark Theme  {>Theme}
     "editor.tabSize": 2
 
 //trabaja con el controlador de version git de forma mas estructurada
+
+
+
+//Estos son los snippets para trabajar de mejor manera
+		"Console Log": {
+		"prefix": "log",
+		"description": "Log output to console",
+		"body": 
+			"console.log(\"$1\");"
+	},
+
+	"Console Choice": {
+		"prefix": "logc",
+		"body": "console.${1|log,warning,error|}(\"$2\");",
+		"description": "Console statement with choices."
+	},
+
+	"For": {
+		"prefix": "forarr",
+		"body": [
+			"for (let ${index} = 0; ${index} < ${array}.length; ${index}++) {",
+			"\tconst ${element} = ${array}[$index];",
+			"\t$0",
+			"}"
+		],
+		"description": "for Loop"
+	},
+
+	"Require npm": {
+		"prefix": "req",
+		"body":	"${1|const,var|} $2 = require('$2');",
+		"description": "Esto es lo que genera el requerimiento de npm package"
+	},
+
+	"function arrow 0": {
+		"prefix": "a|",
+		"body": "() => { $1}",
+		"description": "esto genera la funcion formato arrow 3"
+	},
+
+	"function arrow 1": {
+		"prefix": "a1",
+		"body": "($1) => { $2}",
+		"description": "esto genera la funcion formato arrow 3"
+	},
+
+	"function arrow 2": {
+		"prefix": "a2",
+		"body": "($1, $2) => { $3}",
+		"description": "esto genera la funcion formato arrow 3"
+	},
+
+	"function arrow 3": {
+		"prefix": "a3",
+		"body": "($1, $2, $3) => { $4}",
+		"description": "esto genera la funcion formato arrow 3"
+	}
