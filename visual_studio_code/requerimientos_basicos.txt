@@ -1,0 +1,14 @@
+live server
+open in browser
+bracket pair colorize
+visual studio icons
+Atom One Dark Theme  {>Theme}
+]
+
+    "editor.fontSize": 15,
+    "window.zoomLevel": -2,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 13,
+    "editor.tabSize": 2
+
+//trabaja con el controlador de version git de forma mas estructurada
